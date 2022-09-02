@@ -1,9 +1,20 @@
 import './App.css';
+import { Home } from './pages'
+import { Navbar } from './components'
+import { Footer } from './containers';
 
 const App = () => {
   return ( 
-      <div>
-          
+      <div className="app">
+         <div className="nav">
+            <Navbar/>
+         </div>
+         <div className="page">
+            <Home/>
+         </div>
+         <div className="footer">
+            <Footer/>
+         </div>
       </div>
    );
 }

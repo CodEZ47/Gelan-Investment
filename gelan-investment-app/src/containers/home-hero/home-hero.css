@@ -1,0 +1,79 @@
+:root {
+    --bg-color: #001829;
+    --typewriterSpeed: 4s;
+    --characterLength: 27;
+    --text-color: #01f387;
+}
+  
+.homehero-header {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    background-image: url('../../assets/polygon-scatter-haikei\ \(1\).svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+.homehero-header h1 {
+    font-size: clamp(1rem, 3vw + 1rem, 4rem);
+    color: var(--text-color);
+    position: relative;
+    font-family: "Source Code Pro", monospace;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+  }
+  
+.homehero-header h1::before,
+.homehero-header h1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+.homehero-header h1::before {
+    background: var(--bg-color);
+    animation: typewriter var(--typewriterSpeed)
+      steps(var(--characterLength)) 1s forwards;
+  }
+  
+.homehero-header h1::after {
+    width: 0.125em;
+    background: var(--text-color);
+    animation: typewriter var(--typewriterSpeed)
+        steps(var(--characterLength)) 1s forwards,
+      blink 750ms steps(var(--characterLength)) infinite;
+  }
+  
+
+@keyframes typewriter {
+    to {
+      left: 100%;
+    }
+}
+  
+@keyframes blink {
+    to {
+      background: transparent;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .homehero-header h1::before,
+    .homehero-header h1::after
+     {
+        content: '';
+        width: 0px;
+        animation: none;
+    }
+    .homehero-header h1 {
+      top: -5rem;
+    }
+ 
+  }
+  

@@ -11,7 +11,7 @@ const HomeOverview = () => {
                 <div className="homeoverview-container_content">
                     <div className="homeoverview-container_content_inner">
                         <div className="homeoverview-title">
-                            <h1>Hello World</h1>
+                            <h1>Overview of Gelan City</h1>
                         </div>
                         <div className="homeoverview-par">
                             <p>

@@ -18,7 +18,7 @@ const HomeInvest = () => {
                 <div className="homeinvest-container_content">
                     <div className="homeinvest-container_content_inner">
                         <div className="homeinvest-title">
-                            <h1>Hello World</h1>
+                            <h1>Invest With Us</h1>
                         </div>
                         <div className="homeinvest-par">
                             <p>

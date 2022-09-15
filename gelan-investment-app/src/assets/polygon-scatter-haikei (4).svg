@@ -1,1 +1,86 @@
-<svg id="visual" viewBox="0 0 900 600" width="900" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><rect width="900" height="600" fill="#001829"></rect><g><g transform="translate(897 543)"><path d="M0 -120.8L71 -97.7L114.8 -37.3L114.8 37.3L71 97.7L0 120.8L-71 97.7L-114.8 37.3L-114.8 -37.3L-71 -97.7Z" fill="none" stroke="#297EA6" stroke-width="2"></path></g><g transform="translate(488 301)"><path d="M0 -115L67.6 -93L109.4 -35.5L109.4 35.5L67.6 93L0 115L-67.6 93L-109.4 35.5L-109.4 -35.5L-67.6 -93Z" fill="none" stroke="#297EA6" stroke-width="2"></path></g><g transform="translate(745 82)"><path d="M0 -67L39.4 -54.2L63.7 -20.7L63.7 20.7L39.4 54.2L0 67L-39.4 54.2L-63.7 20.7L-63.7 -20.7L-39.4 -54.2Z" stroke="#297EA6" fill="none" stroke-width="2"></path></g><g transform="translate(875 299)"><path d="M0 -80L47 -64.7L76.1 -24.7L76.1 24.7L47 64.7L0 80L-47 64.7L-76.1 24.7L-76.1 -24.7L-47 -64.7Z" stroke="#297EA6" fill="none" stroke-width="2"></path></g><g transform="translate(192 546)"><path d="M0 -80L47 -64.7L76.1 -24.7L76.1 24.7L47 64.7L0 80L-47 64.7L-76.1 24.7L-76.1 -24.7L-47 -64.7Z" stroke="#297EA6" fill="none" stroke-width="2"></path></g></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="visual"
+   viewBox="0 0 900 600"
+   width="900"
+   height="600"
+   version="1.1"
+   sodipodi:docname="polygon-scatter-haikei (4).svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs29" />
+  <sodipodi:namedview
+     id="namedview27"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.1533333"
+     inkscape:cx="450.43354"
+     inkscape:cy="231.06937"
+     inkscape:window-width="1600"
+     inkscape:window-height="877"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="visual" />
+  <rect
+     width="900"
+     height="600"
+     fill="#001829"
+     id="rect2"
+     x="0"
+     y="0" />
+  <path
+     d="m 74.56647,7.5237 71,23.1 43.8,60.4 v 74.6 l -43.8,60.4 -71,23.1 -71,-23.1 -43.8,-60.4 v -74.6 l 43.8,-60.4 z"
+     fill="none"
+     stroke="#297ea6"
+     stroke-width="2"
+     id="path4" />
+  <g
+     id="g24">
+    <g
+       transform="translate(897 543)"
+       id="g6" />
+    <g
+       transform="translate(488 301)"
+       id="g10">
+      <path
+         d="M0 -115L67.6 -93L109.4 -35.5L109.4 35.5L67.6 93L0 115L-67.6 93L-109.4 35.5L-109.4 -35.5L-67.6 -93Z"
+         fill="none"
+         stroke="#297EA6"
+         stroke-width="2"
+         id="path8" />
+    </g>
+    <g
+       transform="translate(745 82)"
+       id="g14">
+      <path
+         d="M0 -67L39.4 -54.2L63.7 -20.7L63.7 20.7L39.4 54.2L0 67L-39.4 54.2L-63.7 20.7L-63.7 -20.7L-39.4 -54.2Z"
+         stroke="#297EA6"
+         fill="none"
+         stroke-width="2"
+         id="path12" />
+    </g>
+    <g
+       transform="translate(875 299)"
+       id="g18">
+      <path
+         d="M0 -80L47 -64.7L76.1 -24.7L76.1 24.7L47 64.7L0 80L-47 64.7L-76.1 24.7L-76.1 -24.7L-47 -64.7Z"
+         stroke="#297EA6"
+         fill="none"
+         stroke-width="2"
+         id="path16" />
+    </g>
+    <g
+       transform="translate(192 546)"
+       id="g22" />
+  </g>
+</svg>

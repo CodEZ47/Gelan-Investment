@@ -1,4 +1,4 @@
-.container{
+.footer-container{
 	width: 100%;
 	margin:0;
 	padding:0;
@@ -8,7 +8,7 @@
 	margin:auto;
 	box-sizing: border-box;
 }
-.box{
+.footer-box{
 	margin:0;
 	padding:0;
 	display: flex;
@@ -17,7 +17,7 @@
 	align-items: center;
 	justify-content: space-around;
 }
-ul{
+.footer-elements ul{
 	list-style: none;
 	padding: 0;
 }
@@ -49,7 +49,7 @@ ul{
 	margin-bottom: 10px;
 }
 
-.footer-elements .social-links a{
+.footer-elements .footer-social-links a{
 	display: inline-block;
 	height: 40px;
 	width: 40px;
@@ -61,7 +61,7 @@ ul{
 	color: #ffffff;
 	transition: all 0.5s ease;
 }
-.footer-elements .social-links a:hover{
+.footer-elements .footer-social-links a:hover{
 	color: #24262b;
 	background-color: #ffffff;
 }

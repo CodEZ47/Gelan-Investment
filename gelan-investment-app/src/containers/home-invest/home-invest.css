@@ -45,7 +45,7 @@
       
   .homeinvest-container_img{
     width: 100%;
-    animation: slideIn 1.5s ease-in-out forwards;
+    animation: slideIn-invest 1.5s ease-in-out forwards;
     border-radius: 5px;
     /* border: red solid 2px; */
   }
@@ -102,7 +102,7 @@
       animation: slideUp .8s ease forwards .5s;
   }
   
-  @keyframes slideIn {
+  @keyframes slideIn-invest {
     0% {
       transform: translateX(-500px) scale(.2);
     }

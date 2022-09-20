@@ -1,11 +1,14 @@
 .navbar {
-    background-color: #333;
+    background-color: #001320;
     color: #fff;
-
+    width: 100%;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: .3rem 6rem;
+    z-index: 100;
+    /* border: red dashed 2px; */
 }
 
 .navbar .navbar_logo {
@@ -39,7 +42,8 @@
 }
 
 .navbar-links a:hover {
-    border-bottom: 2px  solid #fff;
+    color: #01f387;
+    border-bottom: 2px  solid #01f387;
     transition: .1s;
 }
 
@@ -54,7 +58,7 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-    background: #333;
+    background-color: #001320;
     padding: 2rem;
     position: absolute;
     right: 0;
@@ -63,6 +67,12 @@
     min-width: 300px;
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+}
+
+.navbar_menu_container a:hover{
+    color: #01f387;
+    border-bottom: 2px  solid #01f387;
+    transition: .1s;
 }
 
 .slide-fwd-center {

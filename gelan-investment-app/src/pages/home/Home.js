@@ -1,5 +1,5 @@
 import React from 'react';
-import { HomeHero, HomeOverview, HomeInvest, HomeServices } from "../../containers";
+import { HomeHero, HomeOverview, HomeInvest, HomeTestimonial, HomeServices } from "../../containers";
 import './home.css'
 
 const Home = () => {
@@ -14,12 +14,12 @@ const Home = () => {
             <div className="homeinvest">
                 <HomeInvest/>
             </div>
-            <div className="testimony">
+            <div className="homeservices">
                 <HomeServices/>
             </div>
-            {/* <div className="testimony">
-                <Testimony/>
-            </div> */}
+            <div className="hometestimonial">
+                <HomeTestimonial/>
+            </div>
         </div>
      );
 }

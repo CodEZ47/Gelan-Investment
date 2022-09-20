@@ -6,45 +6,48 @@ import Avatar2 from "../../assets/avatar_2.svg";
 const HomeTestimonial = () => {
     return ( 
     
-            <section className="testimonial text-center">
-                <div className="hometestimonial-container">
+        <div className="home-testimonial">
 
-                    <div className="hometestimonial-heading white-heading">
-                        Testimonial
-                    </div>
-                    <div id="testimonial4" className="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
-                    
-                        <div className="carousel-inner" role="listbox">
-                            <div className="carousel-item active">
-                                <div className="testimonial4_slide">
-                                    <img src={Avatar1}className="img-circle img-responsive" alt="user-1"/>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                                    <h4>Client 1</h4>
-                                </div>
-                            </div>
-                            <div className="carousel-item">
-                                <div className="testimonial4_slide">
-                                    <img src={Avatar2} className="img-circle img-responsive" alt="user-2"/><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                                    <h4>Client 2</h4>
-                                </div>
-                            </div>
-                            <div className="carousel-item">
-                                <div className="testimonial4_slide">
-                                    <img src={Avatar1} className="img-circle img-responsive" alt="user-3"/>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                                    <h4>Client 3</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <a className="carousel-control-prev" href="#testimonial4" data-slide="prev">
-                            <span className="carousel-control-prev-icon"></span>
-                        </a>
-                        <a className="carousel-control-next" href="#testimonial4" data-slide="next">
-                            <span className="carousel-control-next-icon"></span>
-                        </a>
-                    </div>
+            <div className="home-testimonial_cards-container">
+
+                <div className="home-testimonial_cards-header">
+                    <h1>Testimonials.</h1>
+                    <p>See what people are saying.</p>
                 </div>
-            </section>
+
+                <div className="home-testimonial_btns">
+                <button className="home-testimonial_btns-left"><span>&lt;</span></button>
+                </div>
+        
+                <div className="home-testimonial_multi-card">
+
+                    <div className="home-testimonial_card">
+                        <div className="home-testimonial_card-img">
+                            <img src={Avatar1} alt="testimonial giver's image"/>
+                        </div>
+
+                        <div className="home-testimonial_card-info">
+                            <p className="home-testimonial_card-name">
+                                John Doe
+                            </p>
+                            <p className="home-testimonial_card-job">
+                                Technical Writer at Microsoft
+                            </p>
+                        </div>
+
+                        <div className="home-testimonial_card-testimony">
+                            <p><span className="home-testimonial_-leftq">&ldquo;</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolorum architecto repudiandae quo dolor, a amet porro distinctio reiciendis consequatur!</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className="home-testimonial_btns">
+                    <button className="home-testimonial_btns-right"><span>&gt;</span></button>
+                </div>
+
+            </div>
+        </div>
      );
 }
  

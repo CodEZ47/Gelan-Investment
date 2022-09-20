@@ -14,10 +14,10 @@ const Home = () => {
             <div className="homeinvest">
                 <HomeInvest/>
             </div>
-            <div className="testimony">
+            <div className="homeservices">
                 <HomeServices/>
             </div>
-            <div className="testimony">
+            <div className="hometestimonial">
                 <HomeTestimonial/>
             </div>
         </div>

@@ -1,5 +1,5 @@
 import './App.css';
-import { Home, About } from './pages'
+import { Home, About, Opportunities } from './pages'
 import { Navbar } from './components'
 import { Footer } from './containers';
 
@@ -10,7 +10,7 @@ const App = () => {
             <Navbar/>
          </div>
          <div className="page">
-            <Home/>
+            <Opportunities/>
          </div>
          <div className="footer">
             <Footer/>

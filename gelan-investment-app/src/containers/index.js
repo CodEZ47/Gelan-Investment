@@ -5,3 +5,5 @@ export { default as HomeServices} from './home-services/HomeServices'
 export { default as HomeTestimonial} from './home-testimonial/HomeTestimonial';
 export {default as Footer} from './footer/Footer';
 export {default as AboutCards} from './about-cards/AboutCards';
+export { default as OpportunitiesMain} from './opportunities-main/OpportunitiesMain';
+export { default as OpportunitiesInvest} from './opportunities-invest/OpportunitiesInvest';

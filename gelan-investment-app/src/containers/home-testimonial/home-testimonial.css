@@ -114,7 +114,14 @@
   border: none;
 }
 
+.home-testimonial_btns button:hover{
+  color: aqua;
+  box-shadow: rgba(235, 229, 229, 0.4) 0px 20px 100px;
+ 
+}
+
 .home-testimonial_btns > button > span{
+  text-align: center;
   font-size: 40px;
   font-style: italic;
   font-weight: 800;

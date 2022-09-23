@@ -7,7 +7,7 @@ const link_elements = () => (
     <>
     <p><a href="#">Home</a></p>
     <p><a href="#">About Us</a></p>
-    <p><a href="#">Oppotunities</a></p>
+    <p><a href="#">Opportunities</a></p>
     <p><a href="#">Services</a></p>
     <p><a href="#">Contact Us</a></p>
     </>

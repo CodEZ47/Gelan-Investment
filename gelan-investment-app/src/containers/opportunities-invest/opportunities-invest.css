@@ -1,0 +1,110 @@
+.opportunities-invest{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: url(../../assets/polygon-scatter-haikei\ \(4\).svg);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.opportunities-invest_container{
+    width: 90%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    /* border: solid red 1px; */
+}
+
+.opportunities-invest_container-title{
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    height: 100px;
+    font-size: clamp(0.5rem, 1vw + 1rem, 3rem);
+    color: #01f387;
+    /* border: solid yellow 1px; */
+}
+
+.opportunities-invest_container-item{
+    width: 180px;
+    height: 150px;
+    background: transparent;
+    box-shadow: rgba(241, 241, 243, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    perspective: 1000px;
+}
+
+.opportunities-invest_container-item-inner{
+    position: relative;
+    width: 98%;
+    height: 98%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px 10px 50%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.opportunities-invest_container-item:hover{
+    animation: opportunities-invest-highlight 0.7s ease-in-out forwards;
+}
+
+.opportunities-invest_container-item:hover .opportunities-invest_container-item-inner{
+    transform: translateY(-20px) rotateY(180deg);
+}
+
+.opportunities-invest_container-item-inner > .flip-card-front , .opportunities-invest_container-item-inner > .flip-card-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.opportunities-invest_container-item-inner > .flip-card-front{
+    background: #192F3E;
+    border-radius: 10px 10px 50%;
+}
+
+.opportunities-invest_container-item-inner > .flip-card-back{
+    background-color: white;
+    transform: rotateY(180deg);
+    font-size: 20px;
+    border-radius: 10px;
+}
+/* animations */
+
+@keyframes opportunities-invest-highlight {
+    0%{
+        border: none;
+    }
+    25%{
+        border-bottom: solid #01f387 1px;  
+    }
+    50%{
+        border-bottom: solid #01f387 1px;  
+        border-right: solid #01f387 1px;
+    }
+    75%{
+        border-bottom: solid #01f387 1px;  
+        border-right: solid #01f387 1px;
+        border-top: solid #01f387 1px;
+    }
+    100%{
+        border-bottom: solid #01f387 1px;  
+        border-right: solid #01f387 1px;
+        border-top: solid #01f387 1px;
+        border-left: solid #01f387 1px;
+    }
+}

@@ -5,10 +5,11 @@ import './opportunities-invest.css';
 const OpportunitiesInvest = () => {
     return ( 
         <div className="opportunities-invest">
+            <div className="opportunities-invest_container-title">
+                <h1>Investment Process</h1>
+            </div>
+
             <div className="opportunities-invest_container">
-                <div className="opportunities-invest_container-title">
-                    <h1>Investment Process</h1>
-                </div>
                 <div className="opportunities-invest_container-item">
                     <div className="opportunities-invest_container-item-inner">
                         <div className="flip-card-front">
@@ -19,7 +20,7 @@ const OpportunitiesInvest = () => {
                         </div>
                     </div>
                 </div>
-
+                
                 <div className="opportunities-invest_container-item">
                     <div className="opportunities-invest_container-item-inner">
                         <div className="flip-card-front">

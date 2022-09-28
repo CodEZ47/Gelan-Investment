@@ -3,6 +3,25 @@ import './opportunities-invest.css';
 
 
 const OpportunitiesInvest = () => {
+
+    const steps = document.querySelectorAll(".opportunities-invest_container-item");
+
+    const observer = new IntersectionObserver(
+        entries => {
+            entries.forEach(entry =>{
+                entry.target.classList.toggle("show", entry.isIntersecting);
+                // if(entry.isIntersecting) observer.unobserve(entry.target);
+            })
+        },{
+            threshold: 1
+        }
+    )
+
+    steps.forEach(step =>{
+        observer.observe(step);
+    })
+
+
     return ( 
         <div className="opportunities-invest">
             <div className="opportunities-invest_container-title">

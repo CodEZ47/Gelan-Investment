@@ -2,10 +2,10 @@ import './footer-style.css'
 
 const Footer = () => {
     return (
-        <footer class="footer">
-  	        <div class="footer-container">
-  	 	        <div class="footer-box">
-  	 		        <div class="footer-elements">
+        <footer className="footer">
+  	        <div className="footer-container">
+  	 	        <div className="footer-box">
+  	 		        <div className="footer-elements">
   	 			        <h4>Information</h4>
   	 			        <ul>
                             <li><a href="#">About Us</a></li>
@@ -14,7 +14,7 @@ const Footer = () => {
                         </ul>
   	 		        </div>
 
-  	 		        <div class="footer-elements">
+  	 		        <div className="footer-elements">
   	 			        <h4>Useful Links</h4>
                         <ul>
                             <li><a href="#">Contact Us</a></li>
@@ -23,9 +23,9 @@ const Footer = () => {
                         </ul>
   	 		        </div>
 
-                    <div class="footer-elements footer-social-elements">
+                    <div className="footer-elements footer-social-elements">
                         <h4>Social Media</h4>
-                        <div class="footer-social-links">
+                        <div className="footer-social-links">
                             <a href="#"></a>
                             <a href="#"></a>
                             <a href="#"></a>

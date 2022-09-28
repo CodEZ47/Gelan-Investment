@@ -28,7 +28,7 @@
     position: relative;
     padding: 100px;
     display: grid;
-    grid-template-columns: repeat(2, 180px);
+    grid-template-columns: repeat(1, 1fr);
     place-items: center;
     justify-content: center;
     column-gap: 30vw;
@@ -47,6 +47,9 @@
     align-items: center;
     border-radius: 10px;
     perspective: 1000px;
+    opacity: 0;
+    transform: translateX(-200px);
+    transition: 0.7s;
     /* border: #01f387 solid 1px; */
 }
 
@@ -88,6 +91,12 @@
     font-size: 20px;
     color: black;
     border-radius: 10px;
+}
+
+.show{
+    transform: translateX(0px);
+    transition: 0.7s;
+    opacity: 1;
 }
 /* animations */
 

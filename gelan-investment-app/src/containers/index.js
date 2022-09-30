@@ -7,3 +7,5 @@ export {default as Footer} from './footer/Footer';
 export {default as AboutCards} from './about-cards/AboutCards';
 export { default as OpportunitiesMain} from './opportunities-main/OpportunitiesMain';
 export { default as OpportunitiesInvest} from './opportunities-invest/OpportunitiesInvest';
+export { default as AboutTeam} from './about-team/AboutTeam';
+export { default as AboutSlider } from './about-slider/AboutSlider';

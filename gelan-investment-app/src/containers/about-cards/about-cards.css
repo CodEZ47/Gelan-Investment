@@ -1,43 +1,97 @@
-.about-cards_container {
+.about-cards-main{
+    min-height: 100vh;
+    padding-top: 100px ;
+    padding-bottom: 100px ;
+    /* border: white solid 2px; */
     display: flex;
+    flex-direction: column;
+    gap: 50px;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+}
+
+.about-cards-main h1{
+    font-size: clamp(1rem, 3vw + 1rem, 4rem);
+    color: #fff;
+}
+
+.about-cards_container{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    padding: 5px;
+    /* border: solid 2px red; */
 }
 .about-cards_card {
     width: 250px;
     height: 400px;
     position: relative;
-    background: #fff;
+    background: white;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 4px;
-    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    transform: translateY(0px);
     transition:all .3s ease-in ;
 }
 .about-cards_card > *{
     padding: 30px ;
 }
 .about-cards_card .about-cards_card-image {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border: 5px double #02203c;
-    border-radius: 50%;
+    border-radius: 10%;
     background-size: cover;
+    transform: translateY(60px);
+    transition: .5s;
 }
-.about-cards_card .about-cards_card-title {
-
+.about-cards_card-title {
     padding: 20px 10px;
-    font-size: 1.5rem;
+    font-size: 30px;
     text-transform: uppercase;
     text-shadow: 1px 0px 2px #262654;
-}
-.about-cards_card:hover {
-    background: gold;
-    box-shadow: 0px 0px 11px #0000;
+    transform: translateY(80px);
+    transition: .5s;
 }
 
+.about-cards_card-text{
+    text-align: center;
+    opacity: 0;
+    transform: scale(0);
+    transition: .5s;
+}
+.about-cards_card:hover {
+    transform: translateY(-10px);
+    border-radius: 50px 0px;
+    transition: .4s;
+}
+
+.about-cards_card:hover .about-cards_card-image{
+    transform: translateY(0px);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: 0.6s;
+}
+
+.about-cards_card:hover .about-cards_card-title{
+    transform: translateY(0px);
+    font-size: 20px;
+    transition: 0.6s;
+}
+
+.about-cards_card:hover .about-cards_card-text{
+    transform: scale(1);
+    opacity: 1;
+    transition: 0.4s;
+}
 
 

@@ -1,15 +1,18 @@
 .about-team{
     min-height: 100vh;
-    /* border: red solid 1px; */
+    background: url(../../assets/polygon-scatter-haikei\ \(2\).svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: black 1px solid; */
 }
 .about-team-container {
-    min-height: 100vh;
-    margin: 20px 60px;
+    height: 100vh;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* border: #ccc 1px solid; */
 }
 
 .about-team-container-heading {
@@ -36,6 +39,7 @@
     flex-direction: column;
     align-items: center;
     width: 300px;
+    background-color: #090c25;
     transform: translateY(10px);
     transition: 0.5s;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;

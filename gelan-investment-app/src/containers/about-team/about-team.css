@@ -1,0 +1,122 @@
+.about-team{
+    min-height: 100vh;
+    /* border: red solid 1px; */
+}
+.about-team-container {
+    min-height: 100vh;
+    margin: 20px 60px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-team-container-heading {
+    padding: 80px;
+    font-size: 60px;
+    color: white;
+}
+.about-team-container-heading span {
+    /* font-style: italic; */
+    font-size: 60px;
+
+}
+.about-team-profiles-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 10px;
+    /* border: solid red 1px; */
+}
+.about-team-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    transform: translateY(10px);
+    transition: 0.5s;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    border-radius: 15px;
+    border-bottom: black solid 0.1px;
+}
+.about-team-profile .about-team-profile-img {
+
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 400ms;
+    padding: 20px;
+}
+.about-team-profile:hover .about-team-profile-img {
+    filter: grayscale(0);
+}
+
+.about-team-profile:hover{
+    transform: translateY(-10px);
+    transition: 0.6s;
+}
+
+.about-team-profile-user-name {
+    margin-top: 30px;
+    font-size: 35px;
+
+}
+.about-team-profile h5 {
+    font-size:18px ;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: #ccc;
+}
+.about-team-profile p {
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: justify;
+    padding: 20px 60px 80px 60px;
+
+}
+
+@media only screen and (max-width: 1150px) {
+    .about-team-profiles-container {
+        flex-direction: column;
+    }
+
+    .about-team-profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .about-team-profile p {
+        text-align: center;
+        padding: 20px 60px 0px 60px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .about-team-container-heading {
+        font-size: 40px;
+        color: white;
+        text-align: center;
+    }
+
+    .about-team-container-heading span {
+        font-size: 40px;
+
+    }
+
+    .about-team-profiles-container {
+        margin: 20px 0;
+    }
+
+    .about-team-profile p {
+        margin: 20px 10px 80px 10px;
+    }
+}
+
+ 

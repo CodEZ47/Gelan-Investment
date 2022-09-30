@@ -5,9 +5,9 @@ import {RiMenu3Line, RiCloseLine} from 'react-icons/ri';
 
 const link_elements = () => (
     <>
-    <p><a href="#">Home</a></p>
-    <p><a href="#">About Us</a></p>
-    <p><a href="#">Opportunities</a></p>
+    <p><a href="/home">Home</a></p>
+    <p><a href="/about">About Us</a></p>
+    <p><a href="/opportunities">Opportunities</a></p>
     <p><a href="#">Services</a></p>
     <p><a href="#">Contact Us</a></p>
     </>

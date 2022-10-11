@@ -39,7 +39,6 @@ const HomeTestimonial = () => {
                             <p><span className="home-testimonial_-leftq">&ldquo;</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolorum architecto repudiandae quo dolor, a amet porro distinctio reiciendis consequatur!</p>
                         </div>
                     </div>
-
                 </div>
 
                 <div className="home-testimonial_btns">

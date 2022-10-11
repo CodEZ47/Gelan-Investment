@@ -6,7 +6,7 @@ import './home-invest.css';
 
 const HomeInvest = () => {
     return ( 
-        <div className="homeinvest">
+        <div className="homeinvest-main">
             <div className= 'homeinvest-container'>
 
                 <div className="homeinvest-container_outer_img">

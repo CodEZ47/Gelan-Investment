@@ -6,7 +6,7 @@ import './home-overview.css';
 
 const HomeOverview = () => {
     return ( 
-        <div className="homeoverview">
+        <div className="homeoverview-main">
             <div className= 'homeoverview-container'>
                 <div className="homeoverview-container_content">
                     <div className="homeoverview-container_content_inner">
